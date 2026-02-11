@@ -1,0 +1,133 @@
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    body {
+        background-color: #f9f9f9; 
+        font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+        color: #333;
+        overflow-x: hidden;
+    }
+
+    .navegacao {
+        display: flex;
+        align-items: center;
+        background-color: #ffffff;
+        padding: 15px 5%;
+        border-bottom: 3px solid #e00a0a;
+        list-style: none;
+    }
+
+    .logo img {
+        height: 50px;
+        width: auto;
+        display: block;
+        transition: transform 0.3s ease;
+    }
+
+    .logo img:hover {
+        transform: scale(1.05);
+    }
+
+    .navegacao a {
+        text-decoration: none;
+        color: #e00a0a;
+        font-weight: 600;
+        text-transform: uppercase;
+        font-size: 14px;
+        transition: all 0.3s ease;
+    }
+
+    .navegacao a:hover {
+        color: #4f0808;
+        border-bottom: 3px solid #4f0808;
+    }
+
+    .navegacao li {
+        margin-left: 25px;
+    }
+
+    .navegacao li:first-of-type {
+        margin-left: auto;
+    }
+
+    .container-streaming {
+        padding: 40px 5%;
+    }
+
+    .categoria {
+        margin-bottom: 40px;
+    }
+
+    .titulo-categoria {
+        font-size: 1.5rem;
+        color: #1a1a1a;
+        margin-bottom: 15px;
+        font-weight: 700;
+        border-left: 4px solid #e00a0a;
+        padding-left: 15px;
+    }
+
+    .trilho {
+        display: flex;
+        gap: 15px;
+        overflow-x: auto;
+        padding: 20px 0;
+        scrollbar-width: none; 
+    }
+
+    .trilho::-webkit-scrollbar {
+        display: none; 
+    }
+
+    .card-midia {
+        flex: 0 0 auto;
+        width: 200px;
+        height: 300px;
+        border-radius: 8px;
+        overflow: visible; 
+        cursor: pointer;
+        transition: transform 0.4s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+        position: relative;
+    }
+
+    .card-midia img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        border-radius: 8px;
+        box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        transition: box-shadow 0.4s ease;
+    }
+
+    .card-midia:hover {
+        transform: scale(1.15);
+        z-index: 10;
+    }
+
+    .card-midia:hover img {
+        box-shadow: 0 0 20px 5px rgba(224, 10, 10, 0.4); 
+    }
+
+
+    @media (max-width: 768px) {
+        .card-midia {
+            width: 150px;
+            height: 225px;
+        }
+        
+        .titulo-categoria {
+            font-size: 1.2rem;
+        }
+        
+        .navegacao {
+            padding: 10px 5%;
+        }
+        
+        .navegacao li {
+            margin-left: 15px;
+            font-size: 12px;
+        }
+    }

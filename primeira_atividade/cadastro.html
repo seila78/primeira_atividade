@@ -1,0 +1,52 @@
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PlayCine - cadastro</title>
+    <link rel="icon" type="image/x-icon" href="./imagens/icon.png">
+    <link rel="stylesheet" href="./CSS/style3.css">
+</head>
+<body>
+    <ul class="navegacao">
+        <div class="logo">
+            <a href="index.html" target="_blank"><img src="./imagens/ChatGPT Image 7 de fev. de 2026, 02_15_10.png" alt="Logo do Site"></a>
+        </div>
+        <li><a href="./index.html" target="_blank">home</a></li>
+        <li><a href="./filmes.html" target="_blank">filmes</a></li>
+        <li><a href="./cadastro.html" target="_blank">cadastro</a></li>
+        <li><a href="./contato.html" target="_blank">contato</a></li>
+    </ul>
+
+    <div class="container">
+            <h1>bem vindo(a)!</h1>
+            <p>preencha as informações a seguir e se torne nosso aluno:</p>
+            <form>
+                <input type="text" placeholder="nome completo">
+                <br>
+                <input type="number" placeholder="telefone">
+                <br>
+                <input type="email" placeholder="e-mail">
+                <br>
+                <input type="password" placeholder="senha">
+                <br>
+                <p>adicione uma foto do seu documento a seguir: </p>
+                <input type="file"> 
+                <br>
+                <div class="checkbox-container">
+                    <input type="checkbox"> <span class="span">aceito os termos de serviço</span>
+                </div>
+                <button type="submit" onclick="alert('cadastro realizado com sucesso!')">enviar cadastro</button>
+                <br>
+                <button type="reset" class="btn-limpar" onclick="alert('limpado concluido com sucesso!')">limpar formulário</button>
+            </form>
+            
+            <div class="divisor">
+                <span>ou</span>
+            </div>
+            
+            <p class="texto-login">já possui uma conta? faça login para acessar sua área:</p>
+            <a href="./sou_aluno.html" class="btn-login" target="_blank">já sou aluno - fazer login</a>
+        </div>
+
+</body>
+</html>
