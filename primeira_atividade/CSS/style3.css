@@ -9,7 +9,7 @@
         font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
         line-height: 1.6;
         color: #333;
-        background-image: url('../imagens/Cinema.jpg');
+        background: linear-gradient(135deg, rgba(0, 0, 0, 0.281) 25%, rgba(194, 48, 48, 0.37) 90%), url('../imagens/Cinema.jpg');
         background-size: cover;
         background-position: center;
         background-attachment: fixed;
@@ -74,6 +74,10 @@
         backdrop-filter: blur(10px);
         border: 3px solid #e00a0a;
         animation: fadeInUp 0.6s ease;
+        margin-top: 90px;
+    }
+
+    .space {
         margin-top: 20px;
     }
 
