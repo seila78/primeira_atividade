@@ -19,6 +19,9 @@
         padding: 15px 10%;
         border-bottom: 3px solid #e00a0a;
         list-style: none;
+        z-index: 1000;
+        position: sticky;
+        top: 0;
     }
 
     .logo img {
