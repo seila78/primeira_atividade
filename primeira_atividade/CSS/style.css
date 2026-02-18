@@ -164,32 +164,3 @@
         font-size: 1rem;
         color: #555;
     }
-
-    @media (max-width: 768px) {
-        .navegacao {
-            padding: 10px 5%;
-            flex-wrap: wrap;
-            justify-content: center;
-        }
-        
-        .navegacao li:first-of-type {
-            margin-left: 0;
-            width: 100%;
-            text-align: center;
-            margin-top: 10px;
-        }
-
-        .navegacao li {
-            margin: 10px 10px 0;
-        }
-
-        h1 { font-size: 1.8rem; }
-        h2 { font-size: 1.5rem; }
-        p, .lista-vantagens li, summary { font-size: 1rem; }
-        
-        h1, h2, h3, p, .lista-vantagens, details {
-            padding: 0 5%;
-        }
-        
-        details p { padding: 15px; }
-    }

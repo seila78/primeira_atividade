@@ -110,24 +110,3 @@
     .card-midia:hover img {
         box-shadow: 0 0 20px 5px rgba(224, 10, 10, 0.4); 
     }
-
-
-    @media (max-width: 768px) {
-        .card-midia {
-            width: 150px;
-            height: 225px;
-        }
-        
-        .titulo-categoria {
-            font-size: 1.2rem;
-        }
-        
-        .navegacao {
-            padding: 10px 5%;
-        }
-        
-        .navegacao li {
-            margin-left: 15px;
-            font-size: 12px;
-        }
-    }

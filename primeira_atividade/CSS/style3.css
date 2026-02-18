@@ -118,7 +118,7 @@
     input[type="text"], 
     input[type="number"] {
         width: 100%;
-        padding: 14px 20px;
+        padding: 12px 20px;
         margin-bottom: 18px;
         border-radius: 25px;
         border: 2px solid #e0e0e0;
@@ -317,67 +317,4 @@
         transform: translateY(-3px);
         box-shadow: 0 8px 25px rgba(224, 10, 10, 0.5);
         text-decoration: none;
-    }
-
-    @media (max-width: 768px) {
-        .navegacao {
-            padding: 10px 5%;
-            flex-wrap: wrap;
-        }
-        
-        .navegacao li {
-            margin-left: 15px;
-        }
-        
-        .navegacao a {
-            font-size: 12px;
-        }
-
-        .container {
-            padding: 40px 30px;
-            width: 95%;
-            max-width: 550px;
-        }
-
-        h1 {
-            font-size: 2.2em;
-        }
-
-        p {
-            font-size: 0.95em;
-        }
-    }
-
-    @media (max-width: 480px) {
-        .navegacao {
-            justify-content: center;
-        }
-
-        .logo {
-            width: 100%;
-            text-align: center;
-            margin-bottom: 10px;
-        }
-
-        .navegacao li:first-of-type {
-            margin-left: 15px;
-        }
-
-        .container {
-            padding: 30px 20px;
-            max-width: 95%;
-        }
-
-        h1 {
-            font-size: 1.8em;
-        }
-
-        button, .btn-login {
-            padding: 12px 20px;
-            font-size: 0.95em;
-        }
-
-        .divisor {
-            margin: 25px 0;
-        }
     }
